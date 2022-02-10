@@ -1,0 +1,337 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portfolio | Dhanvinesh K</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/000000/external-portfolio-success-flatart-icons-flat-flatarticons.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Bilbo&display=swap" rel="stylesheet">
+</head>
+
+<body class="main">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#" style="font-size: 20px;">Dhanvinesh K</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#employment">Employment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#connect">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                    <h2 class="hero_title">Hi, I'm Dhanvinesh</h2>
+                    <p class="hero_desc">I am a Cybersecurity enthusiast from India</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <span id="about"></span>
+    <br>
+    <br>
+    <section>
+        <div class="container mt-4 pt-4">
+            <h2 class="text-center">About Me</h2>
+            <br>
+            <div class="row mt-4">
+                <center>
+                    <div class="col-lg-4">
+                        <img src="{% static 'images/dp.jpg' %}" style="width:250px; border-radius: 250px;" class="imageAboutPage" alt="">
+                    </div>
+                    <br>
+                    <br>
+                </center>
+
+                <div class="col-lg-16">
+                    <p>
+                    </p>
+                    <div class="row mt-3">
+                        <p class="details">I'm Dhanvinesh K, from Erode, Tamil Nadu, India. I am a 19 years old cyber security enthusiast pursuing B Tech Cybersecurity in Amrita Vishwa Vidyapeetham (Deemed University), Chennai, Tamil Nadu, India. I am also practicing for
+                            Certified Ethical Hacker certification and wish to explore and learn various fields of cyber security. I wish to learn and work with different technologies around the world. I don't feel bored with learning.</p>
+                    </div>
+                    <div class="row mt-3">
+                        <p class="details"> I actively participate in CTFs to improve my knowledge in cybersecurity. Notably, me and my team secured 34th place in India overall for the year 2021. We aim to secure top 10 in India, this year. I work hard and love to help my
+                            peers in learning something. I love to do extra-curricular activities and good at playing tennis, electronic keyboard and cricket.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <br id="education">
+    <hr><br>
+    <section>
+        <div class="container">
+            <h2 class="text-center">Education</h2>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card eduText">
+                        <div class="card-body">
+                            <br>
+                            <i class="fas eduIcon fa fa-graduation-cap"></i>
+                            <h5 class="card-title mt-3">B Tech Computer Science Engineering with Cybersecurity specialization, Amrita Vishwa Vidyapeetham, Chennai, Tamil Nadu, India</h5>
+                            <p class="card-text mt-3">October 2020 - Present <br> <b> Current CGPA: </b> 8.55</b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card eduText">
+                        <div class="card-body">
+                            <br>
+                            <i class="fas eduIcon fa fa-graduation-cap"></i>
+                            <h5 class="card-title mt-3">Class 11 and 12, Green Garden Matriculation Higher Secondary School, Erode. Tamil Nadu, India</h5>
+                            <p class="card-text mt-3">June 2018 - April 2020 <br> <b>Percentage: </b> 85%
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card eduText">
+                        <div class="card-body">
+                            <br>
+                            <i class="fas eduIcon fa fa-graduation-cap"></i>
+                            <h5 class="card-title mt-3">Class 10, Jaycees Matriculation Higher Secondary School, Erode. Tamil Nadu, India</h5>
+                            <p class="card-text mt-3">June 2017 - March 2018 <br> <b>Percentage: </b> 96%
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br id="employment">
+    <hr><br>
+    <section>
+        <div class="container">
+            <h2 class="text-center">Employment History</h2>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card eduText">
+                        <div class="card-body">
+                            <i class="fas eduIcon fa fa-graduation-cap"></i>
+                            <h5 class="card-title mt-3">Club Mentor - Cybersecurity, Cognizance Amrita, Chennai, Tamil Nadu, India</h5>
+                            <p class="card-text mt-3">December 2021 - Present <br> As a mentor in Cognizance Amrita - Cyber security domain, I ensure that my club members learn, communicate and share knowledge among themselves and I give them various interesting tasks in cybersecurity
+                                to make them learn something new.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card eduText">
+                        <div class="card-body">
+                            <i class="fas eduIcon fa fa-graduation-cap"></i>
+                            <h5 class="card-title mt-3">Peer Mentor, Amrita Vishwa Vidyapeetham, Chennai, Tamil Nadu, India</h5>
+                            <p class="card-text mt-3">September 2021 - Present <br> As a peer mentor to my juniors in Amrita Vishwa Vidyapeetham, Chennai, I ensure that my juniors are doing well and understanding everything they learn. I help them whenever something bothers them
+                                in academics. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <hr><br>
+    <section id="projects">
+        <div class="container mt-3">
+            <h2 class="text-center">Projects / Websites</h2>
+            <br>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-5 offset-lg-1 ">
+                    <center>
+                        <ul class="listcss">
+                            <li>
+                                <a href="https://reaper-dhan.github.io/HackRice11/" target="_blank">Project #1</a>
+                            </li>
+                            <li>
+                                <a href="https://reaper-dhan.github.io/UID-Project/" target="_blank">Project #2</a>
+                            </li>
+                            <li>
+                                <a href="https://reaper-dhan.github.io/Cognizance_Rive/Loading.html" target="_blank ">Project #3</a>
+                            </li>
+                            <li>
+                                <a href="https://reaper-dhan.github.io/Cognizance_Quiz_WithoutTimer/" target="_blank">Project #4</a>
+                            </li>
+                            <li>
+                                <a href="https://reaper-dhan.github.io/Cognizance_ToDoList/" target="_blank ">Project #5</a>
+                            </li>
+                        </ul>
+                        <br>
+                    </center>
+                </div>
+                <div class="col-lg-16 ">
+                    <center>
+                        <br>
+                        <h5>Find my projects and websites on</h5><br>
+                        <a href="https://www.github.com"><i class="fab fa fa-github-square social-icons"></i></a>
+                        <br><br>
+                    </center>
+                </div>
+                <div class="col-lg-16">
+                    <center><iframe width="570" height="375" src="https://www.youtube.com/embed/Hi26VJvFW7M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                            autoplay="true"></iframe>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br id=" skills ">
+    <hr><br>
+    <section>
+        <div class="container mt-3 skillsContent ">
+            <h2 class="text-center">Skills</h2>
+            <br><br>
+            <div class="container ">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-5 offset-lg-1 ">
+                        <div class="container">
+                            <div class="container">
+                                <div class="skill c">C</div>
+                            </div>
+                        </div><br>
+                        <div class="container">
+                            <div class="container">
+                                <div class="skill cpp ">C++</div>
+                            </div>
+                        </div><br>
+                        <div class="container ">
+                            <div class="container ">
+                                <div class="skill python ">Python</div>
+                            </div>
+                        </div><br>
+                        <div class="container ">
+                            <div class="container ">
+                                <div class="skill html ">HTML & CSS</div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="container ">
+                            <div class="container ">
+                                <div class="skill js ">Javascript</div>
+                            </div>
+                        </div><br>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-5 ">
+                        <div class="container ">
+                            <div class="container ">
+                                <div class="skill mysql ">MySQL</div>
+                            </div>
+                        </div><br>
+                        <div class="container ">
+                            <div class="container ">
+                                <div class="skill linux ">Linux</div>
+                            </div>
+                        </div><br>
+                        <div class="container ">
+                            <div class="container ">
+                                <div class="skill cyber ">Cybersecurity</div>
+                            </div>
+                        </div><br>
+                        <div class="container ">
+                            <div class="container ">
+                                <div class="skill bash ">Bash Scripting</div>
+                            </div>
+                        </div><br>
+                        <div class="container ">
+                            <div class="container ">
+                                <div class="skill unity ">Unity</div>
+                            </div>
+                        </div><br>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <br>
+    <hr><br>
+    <section id="lang ">
+        <div class="container mt-3 skillsContent ">
+            <h2 class="text-center">Languages I Know</h2>
+            <br><br>
+            <div class="container">
+                <div class="row">
+                    <ul class="langcss">
+                        <li>&ensp; Tamil (Native speaker)</li>
+                        <li>&ensp; Saurashtra (Native speaker)</li>
+                        <li>&ensp; English</li>
+                        <li>&ensp; Hindi</li>
+                        <li>&ensp; French</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <hr><br>
+    <section id="connect ">
+        <h2 class="text-center ">Connect with me</h2>
+        <div class="container-fluid " style="text-align: center ">
+            <div class="social-icons mt-4 ">
+                <a href="https://www.facebook.com/ " target="_blank "><i class="fab fa-facebook "></i></a> &ensp;
+                <a href="https://www.instagram.com/ " target="_blank "><i class="fab fa-instagram "></i></a> &ensp;
+                <a href="https://www.twitter.com/ " target="_blank "><i class="fab fa-twitter "></i></a> &ensp;
+                <a href="https://www.linkedin.com/ " target="_blank "><i class="fab fa-linkedin "></i></a>
+            </div>
+            <br><br>
+            <div class="col-lg-12">
+                <h4> Write to me! </h4>
+                <br>
+                <form action="mailto:dhanvineshk2003@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+                    <label>Name</label><br>
+                    <input type="text" size="19" name="Contact-Name"><br><br> <label>Email</label>
+                    <br>
+                    <input type="email" name="Contact-Email"><br><br> <label>Message</label>
+                    <br>
+                    <textarea name="Contact-Message" rows="10" cols="40"></textarea><br><br>
+                    <button type="submit" value="Submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <br>
+    <footer id="footer">
+        <p><span style="float:left ">All rights reserved &copy; 2022 </span><span style="float:right ">Dhanvinesh K</span></p>
+    </footer>
+    <script src="{% static 'js/script.js' %} "></script>
+
+</body>
+
+</html>
